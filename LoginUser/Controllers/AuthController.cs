@@ -107,7 +107,7 @@ namespace LoginUser.Controllers
         }
 
         [HttpPost("request-password-reset")]
-        public async Task<IActionResult> RequestPasswordReset(RequestPasswordResetRequest request)
+        public async Task<IActionResult> RequestPasswordReset(PasswordResetRequest request)
         {
             var user =
                 await _context.Users

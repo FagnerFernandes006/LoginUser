@@ -1,6 +1,6 @@
 ﻿namespace LoginUser.Models
 {
-    public class RequestPasswordResetRequest
+    public class PasswordResetRequest
     {
         public string Email { get; set; } = "";
     }
